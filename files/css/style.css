@@ -1,0 +1,166 @@
+.bg-white {
+    background-color: white;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.nav-item.active a{
+    background-color: #F44336 ;
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: white;
+}
+
+#channel{
+    margin: 10px;
+    width: 400px;
+    float: right !important;
+    display: inline-block;
+}
+
+#video {
+    margin: 10px;
+    width: 600px;
+    display: inline-block;
+}
+
+#about {
+    margin: 10px;
+    width: 600px;
+    display: inline-block;
+}
+
+#body{
+    width: 1040px;
+    margin: auto;
+}
+
+
+
+.card-up{
+    background-image: url(https://web.archive.org/web/20170209162943/https://yt3.ggpht.com/BXsacRIcITAT5EJrNHd97HnBbXvfQtFbW2qLLOv4UgvKOzgXZs7RbVLcuswO7fECenO4kAGsZg=w2120);
+    background-position:center;
+}
+
+/* VIDEO */
+
+iframe{
+    width:100%;
+    height:315px;
+}
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 1040px) {
+    #channel{
+    margin: 10px;
+    width: 400px;
+    float: right !important;
+    display: inline-block;
+}
+
+#video {
+    margin: 10px;
+    width: 400px;
+    display: inline-block;
+}
+    
+    #about {
+    margin: 10px;
+    width: 400px;
+    display: inline-block;
+}
+    #body{
+    width: 840px;
+    margin: auto;
+}
+    
+    iframe{
+    width:100%;
+    height:215px;
+}
+}
+
+@media only screen and (max-width: 840px) {
+    #channel{
+    margin: 0px;
+    width: 100%;
+    float: right !important;
+    display: inline-block;
+}
+
+#video {
+    margin: 0px;
+    width: 100%;
+    display: inline-block;
+}
+    
+#about {
+    margin: 0px;
+    width: 100%;
+    display: inline-block;
+}
+    
+    #body{
+    width: 95%;
+    margin: auto;
+}
+    
+    iframe{
+    width:100%;
+    height:315px;
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+    #channel{
+    margin: 0px;
+    width: 100%;
+    float: right !important;
+    display: inline-block;
+}
+
+#video {
+    margin: 0px;
+    width: 100%;
+    display: inline-block;
+}
+    
+#about {
+    margin: 0px;
+    width: 100%;
+    display: inline-block;
+}
+    
+    #body{
+    width: 95%;
+    margin: auto;
+}
+    
+    iframe{
+    width:100%;
+    height:215px;
+}
+}
+
+
+
+
+
+
+.btn-yt{
+    background-color: #F44336;
+}
+
+.vid-title{
+    padding: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
